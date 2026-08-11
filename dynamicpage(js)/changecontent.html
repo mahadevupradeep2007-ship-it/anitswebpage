@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Background Changer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+            padding: 40px;
+        }
+        .green-text {
+            color: green;
+        }
+        input, button {
+            padding: 8px 12px;
+            font-size: 16px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="colorInput" placeholder="enter a color">
+    <button id="submitBtn">Submit</button>
+    <div id="changecontent">
+        <h2>Original Title</h2>
+        <p>This text will change and turn green.</p>
+    </div>
+    <script src="changecontent.js" defer></script>
+</body>
+</html>

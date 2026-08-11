@@ -1,0 +1,19 @@
+h1{
+text-align: center;
+text-transform:uppercase;
+text-decoration: underline;
+}
+table{
+
+    width: 500px;
+    border-color: black;
+}
+th{
+  background-color: chartreuse;  
+}
+tr{
+    background-color: white;
+}
+body{
+    background-color: bisque;
+}
